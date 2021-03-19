@@ -1,0 +1,27 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "Belajar Node Js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laodesafar/belajar-nodejs.git"
+  },
+  "author": "La Ode Safar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/laodesafar/belajar-nodejs/issues"
+  },
+  "homepage": "https://github.com/laodesafar/belajar-nodejs#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
+}
